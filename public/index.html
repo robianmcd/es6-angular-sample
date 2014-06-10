@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Sample ES6 App</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <script src="http://google.github.io/traceur-compiler/bin/traceur-runtime.js"></script>
+</head>
+<body ng-app="myApp" ng-cloak>
+
+
+<div ng-controller="PensionListCtrl as ctrl" class="container">
+    <h3>{{ctrl.title}}</h3>
+
+
+    <ol>
+        <li ng-repeat="item in ctrl.items">
+            {{item.name}}
+        </li>
+    </ol>
+</div>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular-mocks.js"></script>
+<script src="app.js"></script>
+<script src="oldCtrl.js"></script>
+<script src="newCtrl.js"></script>
+</body>
+</html>

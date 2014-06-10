@@ -1,0 +1,17 @@
+Working with ES6 Today:
+    ECMAScript (European Computer Manufacturers Association Script) is the spec that JavaScript is based on.
+     The difference between the terms is based on politics, copywrights and marketing but pratically speaking...
+    ECMAScript === JavaScript
+    ES6 is the version of JavaScript that is currently being worked on
+    http://kangax.github.io/compat-table/es6/
+
+    Traceur is a tool that will transpile your ES6 into ES5/ES3
+        Source-to-source compiler (Transpiler)
+
+
+
+Resources:
+    http://wintellect.com/blogs/nstieglitz/5-great-features-in-es6-harmony
+    https://github.com/google/traceur-compiler/wiki/LanguageFeatures
+
+    http://ariya.ofilabs.com/2013/02/es6-and-destructuring-assignment.html
